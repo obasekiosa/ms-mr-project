@@ -9,7 +9,7 @@ public class OxygenTapOff : MonoBehaviour
 
     void Update()
     {
-        tap.GetComponent<Animator>().Play("TapClose");
+        tap.GetComponent<Animator>().Play("tapclose");
         dropsAnimi.SetActive(false);
         ag.GetComponent<Animator>().enabled = false;
         flask.GetComponent<Animator>().enabled = false;

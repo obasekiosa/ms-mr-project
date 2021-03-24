@@ -20,11 +20,11 @@ public class OxygenTapTap : MonoBehaviour
         rep();
         //OldValue.SetActive(true);
         tap.GetComponent<Animator>().enabled = true;
-        tap.GetComponent<Animator>().Play("TAP");
+        tap.GetComponent<Animator>().Play("tap2");
         dropsAnimi.SetActive(true);
 
         ag.GetComponent<Animator>().enabled = true;
-        ag.GetComponent<Animator>().Play("AGDown");
+        ag.GetComponent<Animator>().Play("SodThio2");
 
 
 

@@ -15,7 +15,7 @@ public class BottleToFlask : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
-        if (col.gameObject.tag == "Stand")
+        if (col.gameObject.tag == "Flask")
         {
             FlaskLiq.SetActive(true);
             newBottle.SetActive(true);
